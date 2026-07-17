@@ -10,22 +10,7 @@
 推导运动方程如下：
 ![运动方程推导](./assets/img/自行车运动学模型推导图.jpg)
 
-$$
-\frac{d}{dt}
-\begin{bmatrix}
-x \\
-y \\
-v \\
-\theta
-\end{bmatrix}
-=
-\begin{bmatrix}
-v\cos(\theta + \arctan(\frac{a}{(a+b)\cot\delta})) \\
-v\sin(\theta + \arctan(\frac{a}{(a+b)\cot\delta})) \\
-a \\
-\frac{v\cos(\arctan(\frac{a}{(a+b)\cot\delta}))}{(a+b)\cot\delta}
-\end{bmatrix}
-$$
+$$ \frac{d}{dt} \begin{bmatrix} x \\ y \\ v \\ \theta \end{bmatrix} = \begin{bmatrix} v\cos\left(\theta + \arctan\left(\frac{a}{(a+b)\cot\delta}\right)\right) \\ v\sin\left(\theta + \arctan\left(\frac{a}{(a+b)\cot\delta}\right)\right) \\ a \\ \frac{v}{(a+b)\cot\delta}\cos\left(\arctan\left(\frac{a}{(a+b)\cot\delta}\right)\right) \end{bmatrix} $$
 
 选取自行车轨迹作为观测量，即：
 
