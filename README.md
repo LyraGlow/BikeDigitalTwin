@@ -9,31 +9,32 @@
 ### 2.推导状态方程
 推导运动方程如下：
 ![运动方程推导](./assets/img/自行车运动学模型推导图.jpg)
-因此状态方程如下：
 $$
 \frac{d}{dt}
 \begin{bmatrix}
 x \\
 y \\
 v \\
-\theta \\
+\theta
 \end{bmatrix}
 =
 \begin{bmatrix}
-vcos(\theta + arctan(\frac{a}{(a+b)cot\delta})) \\
-vsin(\theta + arctan(\frac{a}{(a+b)cot\delta})) \\
+v\cos(\theta + \arctan(\frac{a}{(a+b)\cot\delta})) \\
+v\sin(\theta + \arctan(\frac{a}{(a+b)\cot\delta})) \\
 a \\
-\frac{vcos(arctan(\frac{a}{(a+b)cot\delta}))}{(a+b)cot\delta } \\
+\frac{v\cos(\arctan(\frac{a}{(a+b)\cot\delta}))}{(a+b)\cot\delta}
 \end{bmatrix}
 $$
+
 选取自行车轨迹作为观测量，即：
+
 $$
-\vec{y} = [1\quad 1\quad  0\quad  0]
+\vec{y} = \begin{bmatrix} 1 & 1 & 0 & 0 \end{bmatrix}
 \begin{bmatrix}
 x \\
 y \\
 v \\
-\theta \\
+\theta
 \end{bmatrix}
 $$
 
@@ -54,29 +55,38 @@ $$
 ```bash
 header:
   stamp:
-    sec: 1784205097
-    nanosec: 675784595
+    sec: 1784286452
+    nanosec: 118656228
   frame_id: world
 pose:
   position:
-    x: 73.67104357807175
-    y: -5.817520401640122
+    x: 40.77479543964176
+    y: 48.81209709699248
     z: 0.0
   orientation:
     x: 0.0
     y: 0.0
-    z: 0.726559355866321
-    w: 0.6871037057119664
+    z: -0.7030888295960607
+    w: -0.7111020304409498
+twist:
+  linear:
+    x: 10.994126714392971
+    y: 50.33057352306909
+    z: 0.0
+  angular:
+    x: 0.0
+    y: 0.0
+    z: -10.423064872779396
 ---
 ```
-包含时间戳，坐标系，位置和朝向。
+包含时间戳，坐标系，位置,朝向和速度。
 
 ## 三、ROS节点与Unity通信
 
 ### 1.从ros_tcp_endpoint仓库中下载编译ros包
 ```bash
 mkdir -p ros2_ws/src
-cd ./ros2_ws/src
+cd ./src
 git clone -b main-ros2 https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
 cd ..
 rosdep install --from-paths src --ignore-src -r -y
