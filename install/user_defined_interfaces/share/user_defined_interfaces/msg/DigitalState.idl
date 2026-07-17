@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from user_defined_interfaces/msg/DigitalState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "std_msgs/msg/Header.idl"
+
+module user_defined_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "时间戳和坐标系")
+    struct DigitalState {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "位置（x, y, z + 四元数朝向）")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "速度（线速度 + 角速度）")
+      geometry_msgs::msg::Twist twist;
+    };
+  };
+};

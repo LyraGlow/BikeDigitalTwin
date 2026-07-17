@@ -1,0 +1,12 @@
+{
+  "package_name": "user_defined_interfaces",
+  "output_dir": "/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces/rosidl_generator_type_description/user_defined_interfaces",
+  "idl_tuples": [
+    "/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces/rosidl_adapter/user_defined_interfaces:msg/DigitalState.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/lyrical/share/std_msgs/",
+    "builtin_interfaces:/opt/ros/lyrical/share/builtin_interfaces/",
+    "geometry_msgs:/opt/ros/lyrical/share/geometry_msgs/"
+  ]
+}

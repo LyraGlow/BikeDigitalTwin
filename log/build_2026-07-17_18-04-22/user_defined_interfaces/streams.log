@@ -1,0 +1,243 @@
+[0.127s] Invoking command in '/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lyraglow/Projects/BikeDigitalTwin/install/math_model:/opt/ros/lyrical /usr/bin/cmake /home/lyraglow/Projects/BikeDigitalTwin/src/user_defined_interfaces -DCMAKE_INSTALL_PREFIX=/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces
+[0.232s] -- The C compiler identification is GNU 15.2.0
+[0.373s] -- The CXX compiler identification is GNU 15.2.0
+[0.448s] -- Detecting C compiler ABI info
+[0.531s] -- Detecting C compiler ABI info - done
+[0.539s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.539s] -- Detecting C compile features
+[0.539s] -- Detecting C compile features - done
+[0.548s] -- Detecting CXX compiler ABI info
+[0.612s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.619s] -- Detecting CXX compile features
+[0.620s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.800s] -- Found rosidl_default_generators: 1.8.1 (/opt/ros/lyrical/share/rosidl_default_generators/cmake)
+[0.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.877s] -- Found rosidl_adapter: 5.2.1 (/opt/ros/lyrical/share/rosidl_adapter/cmake)
+[0.881s] -- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)
+[0.912s] -- Found geometry_msgs: 5.9.2 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[1.005s] -- Found Python3: /home/lyraglow/Projects/BikeDigitalTwin/.venv/bin/python3 (found version "3.14.4") found components: Interpreter
+[1.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.902s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.315s] -- Found Python3: /home/lyraglow/Projects/BikeDigitalTwin/.venv/bin/python3 (found version "3.14.4") found components: Interpreter Development NumPy Development.Module Development.Embed
+[2.361s] -- Found Python3: /home/lyraglow/Projects/BikeDigitalTwin/.venv/bin/python3 (found version "3.14.4") found components: Interpreter
+[2.367s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[2.441s] -- Added test 'lint_cmake' to check CMake code style
+[2.444s] -- Added test 'xmllint' to check XML markup files
+[2.448s] -- Configuring done (2.3s)
+[2.483s] -- Generating done (0.0s)
+[2.493s] -- Build files have been written to: /home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces
+[2.499s] Invoked command in '/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lyraglow/Projects/BikeDigitalTwin/install/math_model:/opt/ros/lyrical /usr/bin/cmake /home/lyraglow/Projects/BikeDigitalTwin/src/user_defined_interfaces -DCMAKE_INSTALL_PREFIX=/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces
+[2.499s] Invoking command in '/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lyraglow/Projects/BikeDigitalTwin/install/math_model:/opt/ros/lyrical /usr/bin/cmake --build /home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces -- -j32 -l32
+[2.527s] [  2%] [1m[34mGenerating Rust code for ROS interfaces[0m
+[2.527s] [  5%] [1m[34mGenerating type hashes for ROS interfaces[0m
+[2.636s] [  5%] Built target user_defined_interfaces__rosidl_generator_type_description
+[2.641s] [  8%] [1m[34mGenerating C code for ROS interfaces[0m
+[2.648s] [ 11%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[2.653s] [ 11%] Built target user_defined_interfaces__rs
+[2.779s] [ 11%] Built target user_defined_interfaces__cpp
+[2.795s] [ 14%] [32mBuilding C object CMakeFiles/user_defined_interfaces__rosidl_generator_c.dir/rosidl_generator_c/user_defined_interfaces/msg/detail/digital_state__functions.c.o[0m
+[2.795s] [ 17%] [32mBuilding C object CMakeFiles/user_defined_interfaces__rosidl_generator_c.dir/rosidl_generator_c/user_defined_interfaces/msg/detail/digital_state__description.c.o[0m
+[2.795s] [ 20%] [32mBuilding C object CMakeFiles/user_defined_interfaces__rosidl_generator_c.dir/rosidl_generator_c/user_defined_interfaces/msg/detail/digital_state__type_support.c.o[0m
+[2.830s] [ 22%] [1m[32mLinking C shared library libuser_defined_interfaces__rosidl_generator_c.so[0m
+[2.865s] [ 22%] Built target user_defined_interfaces__rosidl_generator_c
+[2.870s] [ 25%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.870s] [ 31%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[2.870s] [ 31%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.870s] [ 37%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[2.870s] [ 37%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[2.870s] [ 40%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[3.001s] [ 42%] [32mBuilding CXX object CMakeFiles/user_defined_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/user_defined_interfaces/msg/digital_state__type_support.cpp.o[0m
+[3.005s] [ 45%] [32mBuilding CXX object CMakeFiles/user_defined_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/user_defined_interfaces/msg/digital_state__type_support.cpp.o[0m
+[3.007s] [ 48%] [32mBuilding CXX object CMakeFiles/user_defined_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/user_defined_interfaces/msg/detail/digital_state__type_support.cpp.o[0m
+[3.010s] [ 51%] [32mBuilding C object CMakeFiles/user_defined_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/user_defined_interfaces/msg/detail/digital_state__type_support.c.o[0m
+[3.021s] [ 54%] [32mBuilding CXX object CMakeFiles/user_defined_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/user_defined_interfaces/msg/detail/dds_fastrtps/digital_state__type_support.cpp.o[0m
+[3.024s] [ 57%] [32mBuilding CXX object CMakeFiles/user_defined_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/user_defined_interfaces/msg/detail/digital_state__type_support_c.cpp.o[0m
+[3.031s] [ 60%] [1m[32mLinking CXX shared library libuser_defined_interfaces__rosidl_typesupport_c.so[0m
+[3.035s] [ 62%] [1m[32mLinking C shared library libuser_defined_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.082s] [ 62%] Built target user_defined_interfaces__rosidl_typesupport_c
+[3.083s] [ 62%] Built target user_defined_interfaces__rosidl_typesupport_introspection_c
+[3.293s] [ 65%] [1m[32mLinking CXX shared library libuser_defined_interfaces__rosidl_typesupport_cpp.so[0m
+[3.316s] [ 68%] [1m[32mLinking CXX shared library libuser_defined_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.340s] [ 68%] Built target user_defined_interfaces__rosidl_typesupport_cpp
+[3.355s] [ 71%] [1m[32mLinking CXX shared library libuser_defined_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.371s] [ 71%] Built target user_defined_interfaces__rosidl_typesupport_introspection_cpp
+[3.377s] [ 74%] [1m[32mLinking CXX shared library libuser_defined_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.401s] [ 74%] Built target user_defined_interfaces__rosidl_typesupport_fastrtps_c
+[3.418s] [ 74%] Built target user_defined_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.427s] [ 74%] Built target user_defined_interfaces
+[3.437s] [ 77%] [1m[34mGenerating Python code for ROS interfaces[0m
+[3.605s] [ 77%] Built target user_defined_interfaces__py
+[3.616s] [ 80%] [32mBuilding C object CMakeFiles/user_defined_interfaces__rosidl_generator_py.dir/rosidl_generator_py/user_defined_interfaces/msg/_digital_state_s.c.o[0m
+[3.621s] [ 80%] Built target ament_cmake_python_sync_user_defined_interfaces
+[3.716s] [ 82%] [1m[32mLinking C shared library libuser_defined_interfaces__rosidl_generator_py.so[0m
+[3.744s] running egg_info
+[3.753s] creating user_defined_interfaces.egg-info
+[3.753s] writing user_defined_interfaces.egg-info/PKG-INFO
+[3.754s] writing dependency_links to user_defined_interfaces.egg-info/dependency_links.txt
+[3.754s] writing top-level names to user_defined_interfaces.egg-info/top_level.txt
+[3.754s] writing manifest file 'user_defined_interfaces.egg-info/SOURCES.txt'
+[3.766s] [ 82%] Built target user_defined_interfaces__rosidl_generator_py
+[3.777s] [ 91%] [32mBuilding C object CMakeFiles/user_defined_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/user_defined_interfaces/_user_defined_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.777s] [ 91%] [32mBuilding C object CMakeFiles/user_defined_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/user_defined_interfaces/_user_defined_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.777s] [ 91%] [32mBuilding C object CMakeFiles/user_defined_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/user_defined_interfaces/_user_defined_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.781s] reading manifest file 'user_defined_interfaces.egg-info/SOURCES.txt'
+[3.781s] writing manifest file 'user_defined_interfaces.egg-info/SOURCES.txt'
+[3.804s] [ 91%] Built target ament_cmake_python_build_user_defined_interfaces_egg
+[3.829s] [ 94%] [1m[32mLinking C shared module rosidl_generator_py/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_c.so[0m
+[3.831s] [100%] [1m[32mLinking C shared module rosidl_generator_py/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[3.831s] [100%] [1m[32mLinking C shared module rosidl_generator_py/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[3.896s] [100%] Built target user_defined_interfaces_s__rosidl_typesupport_c
+[3.896s] [100%] Built target user_defined_interfaces_s__rosidl_typesupport_introspection_c
+[3.897s] [100%] Built target user_defined_interfaces_s__rosidl_typesupport_fastrtps_c
+[3.903s] Invoked command in '/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lyraglow/Projects/BikeDigitalTwin/install/math_model:/opt/ros/lyrical /usr/bin/cmake --build /home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces -- -j32 -l32
+[3.910s] Invoking command in '/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lyraglow/Projects/BikeDigitalTwin/install/math_model:/opt/ros/lyrical /usr/bin/cmake --install /home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces
+[3.915s] -- Install configuration: ""
+[3.915s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/ament_index/resource_index/rosidl_interfaces/user_defined_interfaces
+[3.916s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/msg/DigitalState.json
+[3.916s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces
+[3.916s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg
+[3.916s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/digital_state.h
+[3.916s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.916s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail
+[3.916s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__type_support.h
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__description.c
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__type_support.c
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__struct.h
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__functions.c
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__functions.h
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/environment/library_path.sh
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/environment/library_path.dsv
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_generator_c.so
+[3.917s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_generator_c.so" to ""
+[3.917s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces
+[3.917s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.917s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__rosidl_typesupport_fastrtps_c.h
+[3.917s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.918s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.918s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces
+[3.918s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg
+[3.918s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.918s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail
+[3.918s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__type_support.c
+[3.918s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__rosidl_typesupport_introspection_c.h
+[3.918s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_introspection_c.so
+[3.918s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.918s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_c.so
+[3.918s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_c.so" to ""
+[3.918s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces
+[3.918s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg
+[3.918s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/digital_state.hpp
+[3.918s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.919s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail
+[3.919s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__builder.hpp
+[3.919s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__traits.hpp
+[3.919s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__struct.hpp
+[3.919s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__type_support.hpp
+[3.919s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces
+[3.919s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg
+[3.919s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.919s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/dds_fastrtps
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.920s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.920s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces
+[3.920s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg
+[3.920s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__type_support.cpp
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/include/user_defined_interfaces/user_defined_interfaces/msg/detail/digital_state__rosidl_typesupport_introspection_cpp.hpp
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.920s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_cpp.so
+[3.920s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/environment/pythonpath.sh
+[3.920s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/environment/pythonpath.dsv
+[3.921s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.921s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[3.921s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.922s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_c.so
+[3.922s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_c.so" to ""
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_generator_py.so
+[3.922s] -- Set non-toolchain portion of runtime path of "/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/libuser_defined_interfaces__rosidl_generator_py.so" to ""
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/ament_index/resource_index/rust_packages/user_defined_interfaces
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/rust
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/rust/src
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/rust/src/msg
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/rust/src/msg/rmw.rs
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/rust/src/msg.rs
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/rust/src/lib.rs
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/rust/build.rs
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/rust/Cargo.toml
+[3.922s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/msg/DigitalState.idl
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/msg/DigitalState.msg
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/ament_index/resource_index/package_run_dependencies/user_defined_interfaces
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/ament_index/resource_index/parent_prefix_path/user_defined_interfaces
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/environment/ament_prefix_path.sh
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/environment/ament_prefix_path.dsv
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/environment/path.sh
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/environment/path.dsv
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/local_setup.bash
+[3.923s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/local_setup.fish
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/local_setup.sh
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/local_setup.zsh
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/local_setup.dsv
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/package.dsv
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/ament_index/resource_index/packages/user_defined_interfaces
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_generator_cExport.cmake
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfaces__rosidl_typesupport_cExport.cmake
+[3.924s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_generator_cppExport.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfaces__rosidl_typesupport_cppExport.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_generator_pyExport.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/export_user_defined_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces-0.0.0-py3.14.egg-info
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces-0.0.0-py3.14.egg-info/SOURCES.txt
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces-0.0.0-py3.14.egg-info/dependency_links.txt
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces-0.0.0-py3.14.egg-info/PKG-INFO
+[3.925s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces-0.0.0-py3.14.egg-info/top_level.txt
+[3.926s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces
+[3.926s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_introspection_c.so
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/py.typed
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/__init__.py
+[3.926s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_c.so
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/msg
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/msg/_digital_state_s.c
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/msg/__init__.py
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/msg/_digital_state.py
+[3.926s] -- Up-to-date: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/user_defined_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/_user_defined_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/_user_defined_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.926s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/_user_defined_interfaces_s.ep.rosidl_typesupport_c.c
+[3.954s] Listing '/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces'...
+[3.954s] Compiling '/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/__init__.py'...
+[3.954s] Listing '/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/msg'...
+[3.955s] Compiling '/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/msg/__init__.py'...
+[3.955s] Compiling '/home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/lib/python3.14/site-packages/user_defined_interfaces/msg/_digital_state.py'...
+[3.958s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.958s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.958s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.958s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.959s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.959s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.959s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.959s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[3.959s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfacesConfig.cmake
+[3.959s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/cmake/user_defined_interfacesConfig-version.cmake
+[3.959s] -- Installing: /home/lyraglow/Projects/BikeDigitalTwin/install/user_defined_interfaces/share/user_defined_interfaces/package.xml
+[3.960s] Invoked command in '/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lyraglow/Projects/BikeDigitalTwin/install/math_model:/opt/ros/lyrical /usr/bin/cmake --install /home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces

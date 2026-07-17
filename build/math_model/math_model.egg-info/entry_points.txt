@@ -1,0 +1,2 @@
+[console_scripts]
+digital_state_node = math_model.digital_state_node:main

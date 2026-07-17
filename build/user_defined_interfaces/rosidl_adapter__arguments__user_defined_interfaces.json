@@ -1,0 +1,6 @@
+{
+  "package_name": "user_defined_interfaces",
+  "non_idl_tuples": [
+    "/home/lyraglow/Projects/BikeDigitalTwin/src/user_defined_interfaces:msg/DigitalState.msg"
+  ]
+}

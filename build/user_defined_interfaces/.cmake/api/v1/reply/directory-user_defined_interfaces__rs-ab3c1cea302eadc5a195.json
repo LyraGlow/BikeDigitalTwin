@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "user_defined_interfaces__rs",
+		"source" : "/home/lyraglow/Projects/BikeDigitalTwin/build/user_defined_interfaces/user_defined_interfaces__rs"
+	}
+}

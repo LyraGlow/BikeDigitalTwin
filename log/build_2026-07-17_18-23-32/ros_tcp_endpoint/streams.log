@@ -1,0 +1,99 @@
+[0.495s] Invoking command in '/home/lyraglow/Projects/BikeDigitalTwin/src/ROS-TCP-Endpoint': PYTHONPATH=/home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build install --record /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[0.570s] /usr/lib/python3/dist-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[0.570s] !!
+[0.570s] 
+[0.570s]         ********************************************************************************
+[0.570s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.570s]         versions. Please use the underscore name 'script_dir' instead.
+[0.570s] 
+[0.570s]         This deprecation is overdue, please update your project and remove deprecated
+[0.570s]         calls to avoid build errors in the future.
+[0.570s] 
+[0.570s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.570s]         ********************************************************************************
+[0.571s] 
+[0.571s] !!
+[0.571s]   opt = self._enforce_underscore(opt, section)
+[0.577s] /usr/lib/python3/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.577s]   warnings.warn(msg)
+[0.592s] /usr/lib/python3/dist-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[0.592s] !!
+[0.592s] 
+[0.592s]         ********************************************************************************
+[0.592s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.592s]         versions. Please use the underscore name 'script_dir' instead.
+[0.592s]         (Affected: ros_tcp_endpoint).
+[0.592s] 
+[0.592s]         This deprecation is overdue, please update your project and remove deprecated
+[0.592s]         calls to avoid build errors in the future.
+[0.592s] 
+[0.592s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.592s]         ********************************************************************************
+[0.593s] 
+[0.593s] !!
+[0.593s]   opt = self._enforce_underscore(opt, section)
+[0.623s] running egg_info
+[0.632s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[0.632s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[0.632s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[0.632s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[0.633s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[0.633s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[0.633s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.652s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.652s] adding license file 'LICENSE'
+[0.652s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[0.652s] running build
+[0.652s] running build_py
+[0.652s] creating /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.653s] copying ros_tcp_endpoint/exceptions.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.653s] copying ros_tcp_endpoint/__init__.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.653s] copying ros_tcp_endpoint/tcp_sender.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.653s] copying ros_tcp_endpoint/publisher.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.653s] copying ros_tcp_endpoint/communication.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.654s] copying ros_tcp_endpoint/subscriber.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.654s] copying ros_tcp_endpoint/service.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.654s] copying ros_tcp_endpoint/thread_pauser.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.654s] copying ros_tcp_endpoint/client.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.654s] copying ros_tcp_endpoint/server.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.654s] copying ros_tcp_endpoint/unity_service.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.654s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[0.655s] running install
+[0.657s] running install_lib
+[0.664s] creating /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.665s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint
+[0.666s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-314.pyc
+[0.666s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-314.pyc
+[0.666s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-314.pyc
+[0.668s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-314.pyc
+[0.668s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-314.pyc
+[0.668s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-314.pyc
+[0.668s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/service.py to service.cpython-314.pyc
+[0.669s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-314.pyc
+[0.669s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/client.py to client.cpython-314.pyc
+[0.669s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/server.py to server.cpython-314.pyc
+[0.671s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-314.pyc
+[0.671s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-314.pyc
+[0.671s] running install_data
+[0.671s] creating /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[0.672s] copying resource/ros_tcp_endpoint -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[0.672s] copying package.xml -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[0.672s] creating /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[0.672s] copying launch/endpoint.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[0.672s] running install_egg_info
+[0.681s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages/ros_tcp_endpoint-0.0.1-py3.14.egg-info
+[0.682s] running install_scripts
+[0.724s] Installing default_server_endpoint script to /home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[0.724s] writing list of installed files to '/home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/install.log'
+[0.742s] Invoked command in '/home/lyraglow/Projects/BikeDigitalTwin/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyraglow/Projects/BikeDigitalTwin/install/ros_tcp_endpoint/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/build install --record /home/lyraglow/Projects/BikeDigitalTwin/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

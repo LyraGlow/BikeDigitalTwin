@@ -1,0 +1,30 @@
+[0.379s] Invoking command in '/home/lyraglow/Projects/BikeDigitalTwin/src/math_model': PYTHONPATH=/home/lyraglow/Projects/BikeDigitalTwin/build/math_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/math_model build --build-base /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build install --record /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/install.log --install-scripts $base/lib/math_model --single-version-externally-managed install_data
+[0.514s] running egg_info
+[0.521s] writing ../../build/math_model/math_model.egg-info/PKG-INFO
+[0.522s] writing dependency_links to ../../build/math_model/math_model.egg-info/dependency_links.txt
+[0.522s] writing entry points to ../../build/math_model/math_model.egg-info/entry_points.txt
+[0.522s] writing requirements to ../../build/math_model/math_model.egg-info/requires.txt
+[0.522s] writing top-level names to ../../build/math_model/math_model.egg-info/top_level.txt
+[0.539s] reading manifest file '../../build/math_model/math_model.egg-info/SOURCES.txt'
+[0.539s] adding license file 'LICENSE'
+[0.539s] writing manifest file '../../build/math_model/math_model.egg-info/SOURCES.txt'
+[0.540s] running build
+[0.540s] running build_py
+[0.540s] copying math_model/math_model_state.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+[0.540s] copying math_model/__init__.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+[0.540s] copying math_model/digital_state_node.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+[0.540s] copying math_model/py.typed -> /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+[0.540s] running install
+[0.542s] running install_lib
+[0.550s] copying /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model/digital_state_node.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model
+[0.550s] byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model/digital_state_node.py to digital_state_node.cpython-314.pyc
+[0.551s] running install_data
+[0.551s] copying resource/math_model -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/share/ament_index/resource_index/packages
+[0.551s] copying package.xml -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/share/math_model
+[0.551s] running install_egg_info
+[0.558s] removing '/home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model-0.0.0-py3.14.egg-info' (and everything under it)
+[0.558s] Copying ../../build/math_model/math_model.egg-info to /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model-0.0.0-py3.14.egg-info
+[0.559s] running install_scripts
+[0.597s] Installing digital_state_node script to /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/math_model
+[0.598s] writing list of installed files to '/home/lyraglow/Projects/BikeDigitalTwin/build/math_model/install.log'
+[0.615s] Invoked command in '/home/lyraglow/Projects/BikeDigitalTwin/src/math_model' returned '0': PYTHONPATH=/home/lyraglow/Projects/BikeDigitalTwin/build/math_model/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/math_model build --build-base /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build install --record /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/install.log --install-scripts $base/lib/math_model --single-version-externally-managed install_data

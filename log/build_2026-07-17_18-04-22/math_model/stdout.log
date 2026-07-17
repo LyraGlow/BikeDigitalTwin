@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/math_model/math_model.egg-info
+writing ../../build/math_model/math_model.egg-info/PKG-INFO
+writing dependency_links to ../../build/math_model/math_model.egg-info/dependency_links.txt
+writing entry points to ../../build/math_model/math_model.egg-info/entry_points.txt
+writing requirements to ../../build/math_model/math_model.egg-info/requires.txt
+writing top-level names to ../../build/math_model/math_model.egg-info/top_level.txt
+writing manifest file '../../build/math_model/math_model.egg-info/SOURCES.txt'
+reading manifest file '../../build/math_model/math_model.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/math_model/math_model.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+copying math_model/math_model_state.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+copying math_model/__init__.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+copying math_model/digital_state_node.py -> /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+copying math_model/py.typed -> /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model
+running install
+running install_lib
+creating /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model
+copying /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model/py.typed -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model
+copying /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model/math_model_state.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model
+copying /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model/__init__.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model
+copying /home/lyraglow/Projects/BikeDigitalTwin/build/math_model/build/lib/math_model/digital_state_node.py -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model
+byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model/math_model_state.py to math_model_state.cpython-314.pyc
+byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model/__init__.py to __init__.cpython-314.pyc
+byte-compiling /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model/digital_state_node.py to digital_state_node.cpython-314.pyc
+running install_data
+creating /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/share/ament_index/resource_index/packages
+copying resource/math_model -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/share/ament_index/resource_index/packages
+copying package.xml -> /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/share/math_model
+running install_egg_info
+Copying ../../build/math_model/math_model.egg-info to /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/python3.14/site-packages/math_model-0.0.0-py3.14.egg-info
+running install_scripts
+Installing digital_state_node script to /home/lyraglow/Projects/BikeDigitalTwin/install/math_model/lib/MathModel
+writing list of installed files to '/home/lyraglow/Projects/BikeDigitalTwin/build/math_model/install.log'
