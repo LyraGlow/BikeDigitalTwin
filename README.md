@@ -9,6 +9,7 @@
 ### 2.推导状态方程
 推导运动方程如下：
 ![运动方程推导](./assets/img/自行车运动学模型推导图.jpg)
+
 $$
 \frac{d}{dt}
 \begin{bmatrix}
